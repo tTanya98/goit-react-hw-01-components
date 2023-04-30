@@ -1,6 +1,6 @@
 import { FriendListItem } from './friendListItem';
 import PropTypes from 'prop-types';
-import sty from './friendListStyle.css';
+import sty from './friendListStyle.module.css';
 
 export const FriendList = ({ friends }) => {
   return (

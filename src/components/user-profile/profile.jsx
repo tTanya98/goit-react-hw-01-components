@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'; 
-import sty from './profile-styles.css';
+import sty from './profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
-    const { followers, views, likes } = stats;
+    // const { followers, views, likes } = stats;
     return (
       <div className={sty.profile}>
         <div className={sty.description}>
@@ -15,15 +15,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         <ul className={sty.stats}>
           <li>
             <span className={sty.label}>Followers</span>
-            <span className={sty.quantity}>{followers}</span>
+            <span className={sty.quantity}>{stats.followers}</span>
           </li>
           <li>
             <span className={sty.label}>Views</span>
-            <span className={sty.quantity}>{views}</span>
+            <span className={sty.quantity}>{stats.views}</span>
           </li>
           <li>
             <span className={sty.label}>Likes</span>
-            <span className={sty.quantity}>{likes}</span>
+            <span className={sty.quantity}>{stats.likes}</span>
           </li>
         </ul>
       </div>

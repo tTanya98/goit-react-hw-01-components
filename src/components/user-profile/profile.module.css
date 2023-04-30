@@ -34,7 +34,7 @@
     grid-template-columns: repeat(3, 1fr);
     height: 70px;
     border-top: 1px solid rgb(146, 146, 146);
-    background-color: #2b2a2a;
+    background-color: #00008B;
     margin: 0;
     padding: 0;
   }
@@ -56,10 +56,10 @@
   }
   
   .label {
-    color: #fff;
+    color: #F0FFFF;
     margin-bottom: 5px;
   }
   
   .quantity {
-    color: rgb(235, 116, 116);
+    color: #FFEBCD;
   }

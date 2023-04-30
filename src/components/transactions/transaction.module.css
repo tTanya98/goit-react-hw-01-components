@@ -1,4 +1,4 @@
-.transaction {
+.transactionHistory {
     background-color: #fff;
     width: 600px;
     margin: 0px auto;
@@ -16,7 +16,7 @@
   }
   
   th {
-    background-color: #b87536;
+    background-color: #7B68EE;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
@@ -27,6 +27,6 @@
     text-transform: uppercase;
   }
   
-  tr:nth-child(even) {
+  tr:nth-child(2n) {
     background-color: #faf0e3;
   }

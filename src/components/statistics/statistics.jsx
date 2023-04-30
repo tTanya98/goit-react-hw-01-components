@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import sty from './stat-styles.css';
+import sty from './stat.module.css';
 
-const colors = ['#984ED0', '#CDD25A', '#FDB05E', '#0475ED', '#F02C6E'];
+const colors = ['#FF7F50', '#00008B', '#FFA500', '#008000', '#663399'];
 
 export const Statistics = ({ title, stats }) => {
   return (
